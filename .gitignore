@@ -1,5 +1,39 @@
-.gradle
-build/
+#Android generated
+bin
+gen
+lint.xml
 
-# Ignore Gradle GUI config
-gradle-app.setting
+#Eclipse
+.project
+.classpath
+.settings
+.checkstyle
+
+#IntelliJ IDEA
+.idea
+*.iml
+*.ipr
+*.iws
+classes
+gen-external-apklibs
+*-ide-plugin.xml
+
+#Maven
+target
+release.properties
+pom.xml.*
+
+#Gradle
+build
+.gradle
+
+#Ant
+build.xml
+ant.properties
+local.properties
+proguard-project.txt
+
+#Other
+.DS_Store
+tmp
+.directory
